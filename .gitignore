@@ -14,8 +14,6 @@ tania-core
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 
-package-lock.json
-yarn.lock
 public/
 node_modules/
 cypress/
@@ -23,11 +21,11 @@ vendor/
 storage.db
 notes.md
 .vscode
-conf.json
 db/sqlite/tania.db
 tania.db
 tania-server
 tania-uploads
+dist/
 
 /resources/tests/unit/coverage/
 /resources/tests/assets/screenshots/
@@ -53,3 +51,5 @@ Session.vim
 *~
 # Auto-generated tag files
 tags
+
+**/.DS_Store

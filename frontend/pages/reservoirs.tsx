@@ -13,7 +13,7 @@ import useModal from "../hooks/useModal";
 const Reservoir: NextPage = () => {
   const { modalOpen, showModal, closeModal } = useModal();
   const [reservoirName, setReservoirName] = useState("");
-  const [selectedSource, setSelectedSource] = useState();
+  const [selectedSource, setSelectedSource] = useState("");
   const [sourceNumber, setSourceNumber] = useState("0");
   const [nameIsEmpty, setNameIsEmpty] = useState(false);
 
@@ -51,7 +51,7 @@ const Reservoir: NextPage = () => {
             <th>Source Type</th>
             <th>Capacity</th>
             <th>Used In</th>
-            <th></th>
+            <th />
           </tr>
         </thead>
         <tbody>

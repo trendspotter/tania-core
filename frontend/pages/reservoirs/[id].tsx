@@ -28,7 +28,7 @@ const ReservoirDetail: NextPage = () => {
   const [priority, setPriority] = useState("");
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState();
+  const [selectedCategory, setSelectedCategory] = useState("");
   const [isError, setIsError] = useState(false);
   const target = useRef(null);
 
@@ -126,7 +126,7 @@ const ReservoirDetail: NextPage = () => {
             <Table responsive>
               <thead>
                 <tr>
-                  <th></th>
+                  <th />
                   <th className="w-75">Items</th>
                   <th>Category</th>
                 </tr>
